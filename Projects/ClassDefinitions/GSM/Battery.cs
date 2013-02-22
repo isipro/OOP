@@ -16,16 +16,23 @@ namespace GSM
 
         //Task2: "Define several constructors for the defined classes
 
-        public Battery(string Model)
+        public Battery(string Model, int HoursIdle, int HoursTalk)
         {
             this.model = Model;
+            this.hoursIdle = HoursIdle;
+            this.hoursTalk = HoursTalk;
         }
 
-        public int HoursIdle
+        public int hoursIdle
         {
             get { return this.hoursIdle; }
             set { this.hoursIdle = value; }
         }
 
+        public int hoursTalk
+        {
+            get { return this.hoursTalk; }
+            set { this.hoursTalk = value; }
+        }
     }
 }
