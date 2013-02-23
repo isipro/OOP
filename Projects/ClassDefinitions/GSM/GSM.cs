@@ -68,9 +68,16 @@ namespace GSM
             if (this.Battery != null)
             {
                 toString.AppendLine("###Battery Characteristics: " + this.model);
-                toString.AppendLine("#Battery hours talk time: " + this.Battery.hoursIdle );
-                toString.AppendLine("#Battery hours talk time: " + this.Battery.hoursTalk);
+                toString.AppendLine("#Battery hours talk time: " + this.Battery.HoursIdle);
+                toString.AppendLine("#Battery hours talk time: " + this.Battery.HoursTalk);
 
+            }
+
+            if (this.Display != null)
+            {
+                toString.AppendLine("###Diplay Characteristics");
+                toString.AppendLine("# size: " + this.Display.size); //inaccessible due to protection level
+                toString.AppendLine("# colors: " + this.Display.colors); //inaccessible due to protection level
             }
 
             return base.ToString();

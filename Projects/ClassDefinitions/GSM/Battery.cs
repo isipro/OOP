@@ -23,13 +23,19 @@ namespace GSM
             this.hoursTalk = HoursTalk;
         }
 
-        public int hoursIdle
+        public Battery(string Model) : this(Model, 0, 0) { }
+
+        public Battery(string Model, int HoursIdle) : this(Model, HoursIdle, 0) { }
+
+        public Battery(string Model, int HoursIdle, int HoursTalk) : this(Model, HoursIdle, HoursTalk) { }
+
+        public int HoursIdle
         {
             get { return this.hoursIdle; }
             set { this.hoursIdle = value; }
         }
 
-        public int hoursTalk
+        public int HoursTalk
         {
             get { return this.hoursTalk; }
             set { this.hoursTalk = value; }
