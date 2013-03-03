@@ -17,6 +17,8 @@ namespace JustBelot.IvanAI
 
         public void PlayedCard()
         {
+            var helper = new PlayHelper();
+            helper.MakeDecision();
             Console.WriteLine("Ivan played a card");
         }
     }
