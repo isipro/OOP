@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustBelot.UI", "JustBelot.UI\JustBelot.UI.csproj", "{E50D5E5C-2B03-469B-B0C2-CBEA5E06B56F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustBelot.Common", "JustBelot.Common\JustBelot.Common.csproj", "{AC40D163-B6C5-41C4-834B-FCF517B121C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustBelot.IvanAI", "JustBelot.IvanAI\JustBelot.IvanAI.csproj", "{AC7D798F-8A80-4243-AE9A-A8F3667545DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E50D5E5C-2B03-469B-B0C2-CBEA5E06B56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E50D5E5C-2B03-469B-B0C2-CBEA5E06B56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E50D5E5C-2B03-469B-B0C2-CBEA5E06B56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E50D5E5C-2B03-469B-B0C2-CBEA5E06B56F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC40D163-B6C5-41C4-834B-FCF517B121C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC40D163-B6C5-41C4-834B-FCF517B121C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC40D163-B6C5-41C4-834B-FCF517B121C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC40D163-B6C5-41C4-834B-FCF517B121C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7D798F-8A80-4243-AE9A-A8F3667545DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7D798F-8A80-4243-AE9A-A8F3667545DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7D798F-8A80-4243-AE9A-A8F3667545DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7D798F-8A80-4243-AE9A-A8F3667545DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
